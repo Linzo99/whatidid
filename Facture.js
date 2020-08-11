@@ -3,12 +3,7 @@ import { StyleSheet, Text, TouchableOpacity,Image , View } from 'react-native';
 import Senelec from './Senelec';
 import Woyofal from './Woyofal';
 import Seneau from './Seneau';
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
-import { useNavigation } from '@react-navigation/native';
 
-
-const Stack=createStackNavigator();
 
 export default function Home ({navigation : {navigate}}){
 
